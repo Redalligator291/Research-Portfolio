@@ -10,7 +10,7 @@ I collaborate with University of Missouri and CalTech.
 - Machine Learning & Deep Learning
 - Data analysis & visualization
 - Basic bioinformatics & biomedical research tools
-- Diff SPDD, CNN, 
+- DiffSBDD, CNN, GNN, 
 
 ## Selected Projects
 - Project A — brief one-line description of what it does
