@@ -1,0 +1,68 @@
+; Run control
+define=-DPOSRES_A -DPOSRES_B -DPOSRES_D -DPOSRES_E -DPOSRES_C -DPOSRES_P
+integrator               = md       ; Langevin dynamics
+tinit                    = 0
+dt                       = 0.002
+nsteps                   = 500000   ; 1 ns
+refcoord_scaling        = com
+; Output control
+nstxout         = 0     ; save coordinates every 10 ps
+nstvout         = 0     ; save velocities every 10 ps
+nstenergy       = 0     ; save energies every 10 ps
+nstlog          = 0     ; update log file every 10 ps
+; Output frequency and precision for xtc file
+nstxtcout                = 500000
+xtc-precision            = 1000
+nstcomm                 = 100
+comm_mode               = linear
+comm_grps               = System
+; Neighborsearching and short-range nonbonded interactions
+cutoff-scheme            = verlet
+nstlist                  = 20
+ns_type                  = grid
+pbc                      = xyz
+rlist                    = 1.0
+; Electrostatics
+coulombtype              = PME
+rcoulomb                 = 1.0
+; van der Waals
+vdwtype                  = cutoff
+vdw-modifier             = potential-shift
+rvdw-switch              = 0.8
+rvdw                     = 1.0
+; Apply long range dispersion corrections for Energy and Pressure
+DispCorr                  = EnerPres
+; Spacing for the PME/PPPM FFT grid
+fourierspacing           = 0.12
+; EWALD/PME/PPPM parameters
+pme_order                = 4
+
+; Temperature coupling
+; tcoupl is implicitly handled by the sd integrator
+tcoupl			 = v-rescale
+tc_grps                  = System
+tau_t                    = 1.0
+ref_t                    = 310.15
+
+; Pressure coupling is on for NPT
+Pcoupl                   = Parrinello-Rahman 
+pcoupltype              = isotropic 
+tau_p                   = 5.0
+compressibility         = 4.5e-5
+ref_p                   = 1.0
+
+
+; Do not generate velocities
+gen_vel                  = no 
+; options for bonds
+constraints              = h-bonds  ; we only have C-H bonds here
+; Type of constraint algorithm
+constraint-algorithm     = lincs
+; Constrain the starting configuration
+; since we are continuing from NPT
+continuation             = yes 
+; Highest order in the expansion of the constraint coupling matrix
+lincs-order              = 4
+lincs-iter		=1
+
+
