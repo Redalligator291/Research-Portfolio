@@ -1,9 +1,9 @@
 # Research-Portfolio for Kavin Ramadoss 
-High school student · Researcher · Machine Learning enthusiast · Programmer · Biomedical researcher in the filed of Malaria and Demnentia. 
+High school student · Researcher · Machine Learning enthusiast · Programmer · Biomedical researcher in the field of infectious transmitted diseases and Alzheimer's. 
 
 ## About
 I work at the intersection of machine learning and biomedical research, building practical projects, learning new techniques, and sharing knowledge.
-I collaborate with University of Missouri and CalTech. 
+I collaborate with professors and PhD-level graduate students at Caltech, the University of Missouri, Oregon Health and Science University (OHSU), and the University of Groningen. 
 
 ## Skills
 - Python, PyTorch, TensorFlow
