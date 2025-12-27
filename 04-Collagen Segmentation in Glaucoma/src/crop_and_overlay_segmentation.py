@@ -7,7 +7,7 @@ from skimage.filters.rank import entropy
 from skimage.morphology import disk
 from imutils.perspective import four_point_transform
 
-# This line of code reads the image
+# This  line of code reads the image
 img = r"C:\Users\vaithi\Tissue work\Data\ND13326Hi_Run01_BSED_slice_0087.dm3.tif"
 
 # Reads the image in using OpenCV

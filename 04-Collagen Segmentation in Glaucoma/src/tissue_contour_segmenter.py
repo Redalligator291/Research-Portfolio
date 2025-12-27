@@ -4,10 +4,10 @@ import numpy as np
 # Read the image
 image = cv2.imread(r'C:\Users\vaithi\Tissue work\tissue image better.png')
 
-# Convert the image to grayscale
+# Convert the  image to grayscale
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
-# Apply Canny edge detection
+#  Apply Canny edge detection
 edges = cv2.Canny(gray_image, 100, 100)
 
 # Find contours of the edges

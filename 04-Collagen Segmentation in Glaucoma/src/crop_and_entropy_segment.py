@@ -7,9 +7,9 @@ from skimage.filters.rank import entropy
 from skimage.morphology import disk
 from skimage.color import rgb2gray
 
-# Read the .tif image
+# Read the .tif image 
 img_path = r"C:\Users\vaithi\Tissue work\ND13326Hi_Run01_BSED_slice_0087.dm3.tif"
-img = cv2.imread(img_path)  # Read as-is
+img = cv2.imread(img_path)  #  Read as-is
 
 # Convert to grayscale
 gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
