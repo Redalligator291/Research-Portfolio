@@ -1,4 +1,4 @@
-# Updated_AGILe - [Ancient Greek Inscriptions Lemmatizer]
+# Updated AGILe - [Ancient Greek Inscriptions Lemmatizer]
 
 This repository complements the [AGILe repository](https://github.com/agile-gronlp/agile) as it was used for training AGILe with Stanza and for evaluating it subsequently. 
 
