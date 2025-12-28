@@ -1,5 +1,5 @@
-# Updated_AGILe
-# Reproducing AGILe
+# Updated_AGILe - [Ancient Greek Inscriptions Lemmatizer]
+
 This repository complements the [AGILe repository](https://github.com/agile-gronlp/agile) as it was used for training AGILe with Stanza and for evaluating it subsequently. 
 
 # It requires Python 3.7 to 3.9 (Fixes will be listed at the bottom)
