@@ -1,7 +1,5 @@
 # Collagen Segmenatation in Glaucoma 
 
-# Collagen Segmentation (src)
-
 This folder contains  image-processing scripts used for cropping and entropy-based segmentation of tissue images.
 
 ## Files
