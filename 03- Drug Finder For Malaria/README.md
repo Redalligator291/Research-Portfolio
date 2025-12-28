@@ -1,6 +1,5 @@
 # Drug Finder - Filter and screening Pipeline
 
-# AutoFilter
 
 A low-cost biocomputational framework for high-throughput screening of chemical databases and identification of novel drug inhibitors.
 
