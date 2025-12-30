@@ -17,7 +17,7 @@ My research lies at the intersection of biochemistry and computational modeling,
 
 ##  Research Projects
 
-### 01  Biocomputational Framework for Identifying Novel Malaria Inhibitors
+<h3 style="color: #0066cc">🦟 01 - Biocomputational Framework for Identifying Novel Malaria Inhibitors</h3>
 **Timeline:** 2024-2025  **Collaboration:** University of Missouri
 
 I independently designed and led this research project to develop **AutoFilter**, an integrated, low-cost computational pipeline for rapidly identifying novel inhibitors of *Plasmodium falciparum*.
@@ -38,7 +38,7 @@ I independently designed and led this research project to develop **AutoFilter**
 
 ---
 
-### 02  Augmented Reality Surgical Navigation System
+<h3 style="color: #0066cc">🏥 02 - Augmented Reality Surgical Navigation System</h3>
 **Timeline:** 2023-2024 
 
 Developed an AR-based surgical navigation system for endoscopic endonasal skull base surgeries using **Microsoft HoloLens 2** to reduce carotid artery injury risk in minimally invasive neurosurgery.
@@ -58,7 +58,7 @@ Developed an AR-based surgical navigation system for endoscopic endonasal skull 
 
 ---
 
-### 03  Enhancing Ancient Greek Inscription Lemmatizer
+<h3 style="color: #0066cc">🏛️ 03 - Enhancing Ancient Greek Inscription Lemmatizer</h3>
 **Timeline:** 2024 | **Collaboration:** University of Groningen
 
 Co-authored research enhancing **AGILe**, a Python-based NLP lemmatizer built on Stanza, trained on the CGRN dataset for Ancient Greek inscriptions.
@@ -81,7 +81,7 @@ Co-authored research enhancing **AGILe**, a Python-based NLP lemmatizer built on
 
 ---
 
-### 04  Binding Site Discovery in Aβ42 for Alzheimer's Prevention
+<h3 style="color: #0066cc">🧠 04 - Binding Site Discovery in Aβ42 for Alzheimer's Prevention</h3>
 **Timeline:** 2025Present | **Institution:** Caltech
 
 Ongoing research investigating how small-molecule compounds disrupt amyloid-beta 42 (Aβ42) aggregation, a central pathological hallmark of Alzheimer's disease.
@@ -98,21 +98,21 @@ Ongoing research investigating how small-molecule compounds disrupt amyloid-beta
 
 ---
 
-### 05  Enhancing DiffSBDD for Optimal Pharmacokinetic Properties
+<h3 style="color: #0066cc">💊 05 - Enhancing DiffSBDD for Optimal Pharmacokinetic Properties</h3>
 **Timeline:** 2024-2025
 
 Advancing diffusion-based structure-based drug design to generate ligands with improved pharmacokinetic profiles.
 
 ---
 
-### 06  Collagen Segmentation in Glaucoma-Affected Tissue
+<h3 style="color: #0066cc">👁️ 06 - Collagen Segmentation in Glaucoma-Affected Tissue</h3>
 **Timeline:** 2023-2025
 
 Image segmentation research focused on collagen structure analysis in glaucoma pathology.
 
 ---
 
-### 07  HTML Website for Nonprofit: HearUsOut
+<h3 style="color: #0066cc">🌐 07 - HTML Website for Nonprofit: HearUsOut</h3>
 **Timeline:** 2024
 
 Developed responsive website for nonprofit organization with modern HTML/CSS design.
